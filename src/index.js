@@ -1,5 +1,7 @@
 import Phaser from 'phaser';
 
+import IngameScene from './scenes/ingame.scene';
+
 var config = {
   type: Phaser.AUTO,
   width: 800,
@@ -10,7 +12,7 @@ var config = {
           gravity: { y: 200 }
       }
   },
-  scene: ingameScene
+  scene: IngameScene
 };
 
 var game = new Phaser.Game(config);
